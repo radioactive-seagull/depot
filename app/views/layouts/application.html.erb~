@@ -18,7 +18,7 @@
       <a href="http://www..../faq">Questions</a><br />
       <a href="http://www..../news">News</a><br />
       <a href="http://www..../contact">Contact</a><br />
-      <a> <%= DateTime.now.strptime("%D/%M/%Y, %H:%M:%S") %> </a>
+      <a> <%= DateTime.now.strftime("%D/%M/%Y, %H:%M:%S") %> </a>
     </div>
     <div id="main">
       <%= yield %>
