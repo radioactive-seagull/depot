@@ -19,6 +19,9 @@
       <a href="http://www..../news">News</a><br />
       <a href="http://www..../contact">Contact</a><br />
       <a> <%= DateTime.now.strftime("%D/%M/%Y, %H:%M:%S") %> </a>
+<div id="cart">
+    <%= render @cart %>
+  </div>
     </div>
     <div id="main">
       <%= yield %>

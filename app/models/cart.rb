@@ -11,5 +11,4 @@ def add_product(product_id)
   end
   current_item
 end
-
 end
